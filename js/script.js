@@ -62,8 +62,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Data voucher berbasis persentase
     const vouchers = {
-        'DISKON5': 0.05, // Diskon 5%
-        'DISKON2': 0.02, // Diskon 2%
+        'DISKON5': 0.5, // Diskon 50%
+        'DISKON2': 0.2, // Diskon 20%
         'PROMO50': 0.50, // Diskon 50%
     };
 
@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        // Mengirim pesan WhatsApp dengan validasi
+        // MENGIRIM PESAN WHATSAPP DENGAN HARGA AWAL DAN HARGA AKHIR
         orderForm.addEventListener('submit', (e) => {
             e.preventDefault();
 
@@ -141,23 +141,33 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             const produk = produkInput.value;
-            const harga = hargaInput.value;
             const pembayaranValue = pembayaran.value;
             const voucherCode = voucherInput.value.toUpperCase();
             
+            let finalPrice = originalPrice;
+            let diskonMessage = `Tidak ada`;
+            const formattedOriginalPrice = `Rp ${originalPrice.toLocaleString('id-ID')}`;
+
             let message = `*Fauzi Tunneling - Pesanan Baru*\n\n`;
             message += `*Nama:* ${nama}\n`;
             message += `*Produk:* ${produk}\n`;
-            message += `*Harga Akhir:* ${harga}\n`;
-            message += `*Metode Pembayaran:* ${pembayaranValue}\n`;
-            
+
             if (voucherCode && vouchers[voucherCode]) {
                 const diskonPersen = vouchers[voucherCode];
+                const diskonAmount = originalPrice * diskonPersen;
+                finalPrice = originalPrice - diskonAmount;
                 const diskonTeks = (diskonPersen * 100).toFixed(0);
-                message += `*Voucher Digunakan:* ${voucherCode} (Diskon ${diskonTeks}%)\n`;
-            } else {
-                message += `*Voucher Digunakan:* Tidak ada\n`;
+                diskonMessage = `${voucherCode} (Diskon ${diskonTeks}%)`;
+                
+                // Tambahkan harga awal hanya jika ada diskon
+                message += `*Harga Awal:* ${formattedOriginalPrice}\n`;
             }
+
+            const formattedFinalPrice = `Rp ${Math.max(0, finalPrice).toLocaleString('id-ID')}`;
+            
+            message += `*Harga Akhir:* ${formattedFinalPrice}\n`;
+            message += `*Metode Pembayaran:* ${pembayaranValue}\n`;
+            message += `*Voucher Digunakan:* ${diskonMessage}\n`;
 
             const whatsappURL = `https://wa.me/6285238906544?text=${encodeURIComponent(message)}`;
             window.open(whatsappURL, '_blank');
