@@ -62,8 +62,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Data voucher berbasis persentase
     const vouchers = {
-        'DISKON5': 0.5, // Diskon 50%
-        'DISKON2': 0.2, // Diskon 20%
+        'Diskon1': 0.1, // Diskon 10%
+        'Diskon4': 0.2, // Diskon 20%
         'PROMO50': 0.50, // Diskon 50%
     };
 
