@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paket Game - Fauzi Tunneling</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <meta name="description" content="Pilih paket game favorit Anda dan rasakan pengalaman gaming tanpa batas!">
+</head>
+<body>
+    <header>
+        <div class="logo">Fauzi Tunneling</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="games.html">Paket Game</a></li>
+                <li><a href="vpn.html">Paket VPN</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-title">
+            <h2>Pilihan Paket Game</h2>
+            <p>Pilih paket game favorit Anda dan rasakan pengalaman gaming tanpa batas!</p>
+        </section>
+
+        <section class="product-grid-section">
+            <div class="product-grid">
+                <div class="product-card">
+                    <h3>Paket Game 15GB</h3>
+                    <p class="card-subtitle">Kosongan</p>
+                    <p class="product-duration">Masa Aktif 30 Hari</p>
+                    <span class="price">Rp 26.000</span>
+                    <ul class="feature-list">
+                        <li>Download cepat</li>
+                        <li>Tanpa VPN</li>
+                    </ul>
+                    <a href="#" class="buy-button" data-product="Paket Game 15GB" data-price="26000">Beli Sekarang</a>
+                </div>
+
+                <div class="product-card">
+                    <h3>Paket Game 15GB + VPN 7 Hari</h3>
+                    <p class="card-subtitle">Paling Populer</p>
+                    <p class="product-duration">Masa Aktif 30 Hari</p>
+                    <span class="price">Rp 30.000</span>
+                    <ul class="feature-list">
+                        <li>VPN 7 hari</li>
+                        <li>harga pling Populer</li>
+                    </ul>
+                    <a href="#" class="buy-button" data-product="Paket Game 15GB + VPN 7 Hari" data-price="30000">Beli Sekarang</a>
+                </div>
+
+                <div class="product-card">
+                    <h3>Paket Game 15GB + VPN 30 Hari</h3>
+                    <p class="card-subtitle">Solusi bulanan</p>
+                    <p class="product-duration">Masa Aktif 30 Hari</p>
+                    <span class="price">Rp 41.000</span>
+                    <ul class="feature-list">
+                        <li>VPN 30 hari</li>
+                        <li>Keamanan maksimal</li>
+                    </ul>
+                    <a href="#" class="buy-button" data-product="Paket Game 15GB + VPN 30 Hari" data-price="41000">Beli Sekarang</a>
+                </div>
+
+                <div class="product-card">
+                    <h3>Paket Game 30GB + VPN 30 Hari</h3>
+                    <p class="card-subtitle">Untuk gamer serius</p>
+                    <p class="product-duration">Masa Aktif 30 Hari</p>
+                    <span class="price">Rp 67.000</span>
+                    <ul class="feature-list">
+                        <li>VPN 30 hari</li>
+                        <li>Streaming lancar</li>
+                    </ul>
+                    <a href="#" class="buy-button" data-product="Paket Game 30GB + VPN 30 Hari" data-price="67000">Beli Sekarang</a>
+                </div>
+
+                <div class="product-card">
+                    <h3>Paket Game 45GB + VPN 30 Hari</h3>
+                    <p class="card-subtitle">Paket jumbo</p>
+                    <p class="product-duration">Masa Aktif 30 Hari</p>
+                    <span class="price">Rp 93.000</span>
+                    <ul class="feature-list">
+                        <li>VPN 30 hari</li>
+                        <li>Cocok untuk multiplayer</li>
+                    </ul>
+                    <a href="#" class="buy-button" data-product="Paket Game 45GB + VPN 30 Hari" data-price="93000">Beli Sekarang</a>
+                </div>
+
+                <div class="product-card">
+                    <h3>Paket Game 60GB + VPN 30 Hari</h3>
+                    <p class="card-subtitle">Ultimate package</p>
+                    <p class="product-duration">Masa Aktif 30 Hari</p>
+                    <span class="price">Rp 115.000</span>
+                    <ul class="feature-list">
+                        <li>VPN 30 hari</li>
+                        <li>Performa gaming optimal</li>
+                    </ul>
+                    <a href="#" class="buy-button" data-product="Paket Game 60GB + VPN 30 Hari" data-price="115000">Beli Sekarang</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <div id="order-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div class="modal-header">
+                <h2>Formulir Pemesanan</h2>
+            </div>
+            <p>Silakan isi data diri Anda. Semua kolom wajib diisi, kecuali kode voucher bersifat opsional. Nama bisa diisi bebas sesuai keinginan.</p>
+            <form id="order-form">
+                <div class="form-group">
+                    <label for="nama">Nama Lengkap</label>
+                    <input type="text" id="nama" name="nama" required placeholder="Contoh: Budi Santoso">
+                </div>
+                <div class="form-group">
+                    <label for="hp">Nomor HP</label>
+                    <input type="tel" id="hp" name="hp" required placeholder="Contoh: 081234567890">
+                </div>
+                <div class="form-group">
+                    <label for="produk">Produk yang Dipesan</label>
+                    <input type="text" id="produk" name="produk" readonly>
+                </div>
+                <div class="form-group price-display">
+                    <label for="harga">Total Harga</label>
+                    <span id="original-price" class="original-price"></span>
+                    <input type="text" id="harga" name="harga" readonly>
+                </div>
+                <div class="form-group">
+                    <label>Pilih Metode Pembayaran</label>
+                    <div class="payment-options">
+                        <input type="radio" id="dana" name="pembayaran" value="Dana" required>
+                        <label for="dana">Dana</label>
+                        <input type="radio" id="gopay" name="pembayaran" value="GoPay">
+                        <label for="gopay">GoPay</label>
+                        <input type="radio" id="qris" name="pembayaran" value="QRIS">
+                        <label for="qris">QRIS</label>
+                        <input type="radio" id="bank" name="pembayaran" value="Bank">
+                        <label for="bank">Bank</label>
+                        <input type="radio" id="lainnya" name="pembayaran" value="Lainnya">
+                        <label for="lainnya">Lainnya</label>
+                    </div>
+                </div>
+                <div class="form-group voucher-input">
+                    <label for="voucher">Kode Voucher (Opsional)</label>
+                    <div class="input-with-button">
+                        <input type="text" id="voucher" name="voucher" placeholder="Masukkan kode voucher">
+                        <button type="button" id="apply-voucher" class="apply-button">Gunakan</button>
+                    </div>
+                    <small class="voucher-info">Untuk mendapatkan kode voucher, admin akan memberikan syarat.</small>
+                    <div id="voucher-message" class="voucher-message"></div>
+                </div>
+                <button type="submit" class="submit-button">Kirim Pesanan via WhatsApp</button>
+            </form>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Fauzi Tunneling. Hak Cipta Dilindungi.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
