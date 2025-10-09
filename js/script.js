@@ -62,8 +62,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Data voucher berbasis persentase
     const vouchers = {
-        'Diskon1': 0.1, // Diskon 10%
-        'Diskon4': 0.2, // Diskon 20%
+        'DISKON5': 0.5, // Diskon 50%
+        'DISKON2': 0.2, // Diskon 20%
         'PROMO50': 0.50, // Diskon 50%
     };
 
@@ -126,19 +126,20 @@ document.addEventListener('DOMContentLoaded', () => {
             e.preventDefault();
 
             const nama = document.getElementById('nama').value;
-            const hp = document.getElementById('hp').value; // Mengambil data Nomor HP
+            const hpInput = document.getElementById('hp');
+            const hp = hpInput ? hpInput.value : '';
             const pembayaran = document.querySelector('input[name="pembayaran"]:checked');
             
-            // Validasi: Cek jika nama, HP, atau pembayaran belum diisi
+            // Validasi: Cek jika nama atau pembayaran belum diisi
             if (nama.trim() === '') {
                 alert('Nama lengkap wajib diisi.');
                 document.getElementById('nama').focus();
                 return;
             }
 
-            if (hp.trim() === '') { // Validasi Nomor HP
+            if (hpInput && hp.trim() === '') {
                 alert('Nomor HP wajib diisi.');
-                document.getElementById('hp').focus();
+                hpInput.focus();
                 return;
             }
             
@@ -157,7 +158,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
             let message = `*Fauzi Tunneling - Pesanan Baru*\n\n`;
             message += `*Nama:* ${nama}\n`;
-            message += `*Nomor HP:* ${hp}\n`; // Menambahkan Nomor HP ke pesan
+            if (hp !== '') {
+                 message += `*Nomor HP:* ${hp}\n`;
+            }
+
             message += `*Produk:* ${produk}\n`;
 
             if (voucherCode && vouchers[voucherCode]) {
