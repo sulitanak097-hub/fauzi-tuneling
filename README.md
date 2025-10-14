@@ -18,11 +18,7 @@ Kami bukan sekadar penyedia tunneling biasa. Kami menawarkan pengalaman koneksi 
 | 🌐 Buka Blokir Konten | Akses situs web, layanan streaming, dan aplikasi yang diblokir di wilayah Anda dengan mudah. |
 | 👩‍💻 Dukungan Penuh | Tim kami siap membantu Anda 24/7 untuk mengatasi setiap kendala teknis yang mungkin Anda hadapi. |
 
-
-<div align="center">
-<img src="[https://i.ibb.co/hMhHk6z/features-tunnel.png](https://drive.google.com/file/d/1E7SuFpEB52DkPOSLje7YLa5peW5iHgyi/view?usp=drivesdk)" alt="Fitur Unggulan" width="700"/>
 </div>
-
 
 🎯 Sempurna Untuk Segala Kebutuhan Anda
 Apapun aktivitas online Anda, Fauzi Tunneling siap memberikan koneksi terbaik.
