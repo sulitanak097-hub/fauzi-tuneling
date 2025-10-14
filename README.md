@@ -8,9 +8,6 @@
 <br />
 Buka potensi penuh internet Anda, baik untuk gaming, streaming, atau sekadar browsing.
 </p>
-<p align="center">
-<img src="https://img.shields.io/badge/Status-Aktif-brightgreen?style=for-the-badge&logo=power" alt="Status Layanan">
-</p>
 🔥 Mengapa Memilih Fauzi Tunneling?
 Kami bukan sekadar penyedia tunneling biasa. Kami menawarkan pengalaman koneksi yang dioptimalkan untuk segala kebutuhan Anda dengan server terbaik dan teknologi terkini.
 | Fitur Unggulan | Deskripsi |
@@ -39,20 +36,18 @@ Siap dalam beberapa menit, nikmati koneksi super cepat selamanya!
 📞 Hubungi Kami & Lakukan Pemesanan
 Tertarik untuk merasakan perbedaannya? Jangan ragu untuk menghubungi kami! Klik salah satu tombol di bawah untuk berbicara langsung dengan admin kami, melihat info terbaru, atau mengunjungi website kami.
 <p align="center">
-<a href="https://wa.me/NOMOR_WHATSAPP_ANDA" target="_blank">
+<a href="https://085238906544" target="_blank">
 <img src="https://img.shields.io/badge/WhatsApp-Hubungi_Admin-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
 </a>
 &nbsp;
-<a href="https://t.me/USERNAME_TELEGRAM_ANDA" target="_blank">
+<a href="https://t.me/Fauziii09" target="_blank">
 <img src="https://img.shields.io/badge/Telegram-Chat_Admin-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
 </a>
 &nbsp;
-<a href="https://ALAMAT_WEBSITE_ANDA" target="_blank">
+<a href="https://sulitanak097-hub.github.io/fauzi-tuneling/index.html" target="_blank">
 <img src="https://img.shields.io/badge/Website-Kunjungi_Kami-orange?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website"/>
 </a>
 </p>
-<div align="center">
-<img src="https://i.ibb.co/Q8Q8w0Q/contact-tunnel.png" alt="Hubungi Kami" width="600"/>
 </div>
 <p align="center">
 <strong>© 2024 Fauzi Tunneling - Koneksi Tanpa Batas.</strong>
