@@ -1,6 +1,6 @@
 # fauzi-tuneling
 <div align="center">
-<img src="[https://i.ibb.co/5RFdZgC/header-tunnel.png](https://github.com/sulitanak097-hub/Logo/blob/main/logo.png)" alt="Fauzi Tunneling Banner" width="800"/>
+<img src="https://github.com/sulitanak097-hub/Logo/blob/main/logo.png" alt="Fauzi Tunneling Banner" width="800"/>
 </div>
 <h1 align="center">🚀 FAUŽI TUNELING 🚀</h1>
 <p align="center">
