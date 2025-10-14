@@ -10,7 +10,6 @@ Buka potensi penuh internet Anda, baik untuk gaming, streaming, atau sekadar bro
 </p>
 <p align="center">
 <img src="https://img.shields.io/badge/Status-Aktif-brightgreen?style=for-the-badge&logo=power" alt="Status Layanan">
-<img src="https://img.shields.io/badge/Support-24/7-blue?style=for-the-badge&logo=wechat" alt="Dukungan Pelanggan">
 </p>
 🔥 Mengapa Memilih Fauzi Tunneling?
 Kami bukan sekadar penyedia tunneling biasa. Kami menawarkan pengalaman koneksi yang dioptimalkan untuk segala kebutuhan Anda dengan server terbaik dan teknologi terkini.
@@ -24,7 +23,7 @@ Kami bukan sekadar penyedia tunneling biasa. Kami menawarkan pengalaman koneksi 
 
 
 <div align="center">
-<img src="https://i.ibb.co/hMhHk6z/features-tunnel.png" alt="Fitur Unggulan" width="700"/>
+<img src="[https://i.ibb.co/hMhHk6z/features-tunnel.png](https://drive.google.com/file/d/1E7SuFpEB52DkPOSLje7YLa5peW5iHgyi/view?usp=drivesdk)" alt="Fitur Unggulan" width="700"/>
 </div>
 
 
